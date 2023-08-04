@@ -1,0 +1,95 @@
+body{background-color: #EAEAEA;
+}
+@keyframes head{
+    10%{color: red;
+    }
+     30%{color: white;
+    }
+     50%{color: pink;
+    }
+     70%{color: blue;
+    }
+     90%{color: green;
+    }
+    100%{color: gold;
+    }
+}
+h1{width: fit-content;
+    color: rgb(122,232,122);
+    font-family:algerian,serif;
+    animation: head 2s ease-in-out 1s infinite forwards;
+}
+center{font-size:3vw;
+    font-family: bodoni mt black;
+}
+nav{margin-top: -70px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    margin-left: 370px;
+    padding:10px;
+}
+a{font-size: 2vw;
+    text-decoration: none;
+    font-family:garamond;
+    padding: 10px;
+    background: white;
+    border right:5px solid red;
+    border-left:2px solid goldenrod ;
+    border-radius: 30px;
+}
+a:link{font-family: cambria;
+}
+input.only{width: 400px;
+    background: yellow;
+    transition: width 10s ease-in-out 1s,background 20s ease-in-out 1s;
+}
+input.only:focus{width: 500px;
+    background: red;
+}
+a:visited{color: blue;
+    border-bottom: 2px solid red;
+}
+a:hover{background:blue;
+	color: red;
+    border-bottom: 2px solid red;
+    font-family: algerian;
+}
+a:active{background-color:blue;
+}
+input{color: red;
+    background-color: gold;
+    font-size: 1.2vw;
+    border-radius: 60px;
+    box-shadow: 0px 0px 10px red;
+}
+label{color: blue;
+    font-size: 1.2vw;
+    text-shadow: 5px 0px 10px blue; 
+}
+
+@keyframes event{
+    20%{ background: repeating-radial-gradient(circle,blue 2%, yellow 4%);
+    }
+    40%{ background: repeating-radial-gradient(circle,red 3%, blue 5%);
+    }
+    60%{ background: repeating-radial-gradient(circle,purple 4%, green 6%);
+    }
+    80%{ background: repeating-radial-gradient(circle,brown 5%, white 7%);
+    }
+    100%{ background: repeating-radial-gradient(circle,pink 6%, black 8%);
+    }
+}
+div.just{width: fit-content;
+    height: 100px;
+    background: repeating-radial-gradient(circle,red 1%, yellow 2%);
+    animation: event 2s ease-in-out 1s infinite forwards;
+}
+div.shape{height: 89px;
+    width: 70px;
+    background: rgb(105,105,52);
+    transform: skew(20deg,20deg);
+}
+div.shape{transform: translate(10px,20px);
+    
+}
+

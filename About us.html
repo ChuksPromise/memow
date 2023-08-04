@@ -1,0 +1,137 @@
+<html>
+	<head>
+		<title>time table</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" 
+		integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" 
+		crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+		crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" 
+		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" 
+		crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" 
+		integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" 
+		crossorigin="anonymous"></script>
+		<style>
+		body{background-color:rgb(255 122 222);
+			background-repeat:no-repeat;
+			background-position:300px 0px;
+			}
+			a{text-decoration:none;
+			color: green;
+			}
+			b{color:red;
+			}
+            @media screen and (max-width: 992px){
+                ul.navbar-nav>li{
+                width: 80px;
+                padding: 5px;
+                font-family: script mt;
+                border-radius: 60px;
+                box-shadow: 0px 0px 10px gold;
+                background: rgb(224,207,207);
+			}
+			ul.navbar-nav>li:hover{background: white;
+                border-radius: 10px;}
+    
+            }
+			ul.navbar-nav>li{padding: 5px;
+                font-family: script mt;
+                border-radius: 60px;
+                box-shadow: 0px 0px 10px gold;
+                background: rgb(224,207,207);
+			}
+			ul.navbar-nav>li:hover{background: white;
+			border-radius: 10px;
+    
+			}
+			table{background-color:white;
+				color:blue;
+				font-family:algerian,serif;
+				border-collapse: collapse;
+				border: 5px solid orange;
+			}
+			td{padding: 5px;
+				text-align: center;
+				border: 5px solid orange;
+			}
+			th{border: 5px solid orange;
+				color: red;
+                text-align: center;
+			}
+			tr:hover{background: blue;
+				font-family: algerian,serif;
+				color: red;
+			}
+
+		</style>
+	</head>
+	<body >
+		<nav class="navbar navbar-expand-md bg-success navbar-dark container-fluid">
+			<a href="index.html" class="navbar-brand">
+				<img src="IMAGE/skull.jpg" height="50px" width="50px" alt="logo"/>
+			</a><br/><br/>
+			<button type="button" class="navbar-toggler" data-target="#bolu" data-toggle="collapse">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div id="bolu" class="collapse navbar-collapse justify-content-center">
+				<ul class="navbar-nav" >
+					<li><a href="index.html">Home</a></li>
+					<li><a href="About us.html">About Us</a></li>
+					<li><a href="Contact us.html">Contact Us</a></li>
+					<li><a href="Product.html">Product</a></li>
+					<li><a href="Service.html">Service</a></li>
+					<li><a href="google new  tab.html">Google</a></li>
+					<li><a href="FCMB HOMEPAGE.html">FCMB</a></li>
+				</ul>
+			</div>
+		</nav><br>
+		<img src="IMAGE/school 2.jfif" height="500px" width="100%" alt="slide 1" />
+		<table border="2" cellpadding="3">
+			<tr>
+				<th colspan="7">Time table</th>
+			</tr>
+			<tr>
+				<th rowspan="6">Hours</th>
+				<td><b>Mon</b></td>
+				<td><b>Tue</b></td>
+				<td><b>Wed</b></td>
+				<td><b>Thu</b></td>
+				<td><b>Fri</b></td>
+			</tr>
+			<tr>
+				<td>Science</td>
+				<td>Maths</td>
+				<td>Science</td>
+				<td>Maths</td>
+				<td>Arts</td>
+			</tr>
+			<tr>
+				<td>Social</td>
+				<td>History</td>
+				<td>English</td>
+				<td>Social</td>
+				<td>Sports</td>
+			</tr>
+			<tr>
+				<th colspan="5">Lunch</th>
+			</tr>
+			<tr>
+				<td>Science</td>
+				<td>Maths</td>
+				<td>Science</td>
+				<td>Maths</td>
+				<td rowspan="2">Project</td>
+			</tr>
+			<tr>
+				<td>Social</td>
+				<td>History</td>
+				<td>English</td>
+				<td>Social</td>
+			</tr>
+		</table>
+	</body>	
+</html>

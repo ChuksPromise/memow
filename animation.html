@@ -1,0 +1,137 @@
+<html>
+	<head>
+		<title>my animation</title>
+		<style>
+         @keyframes body{
+				from{
+					background: yellow;
+					color: red;
+				}
+				to{
+					background: blue; 
+					color: white;
+				}
+			}
+			body{
+				margin: 0px auto;
+				animation: body 10s ease-in-out 2s infinite forwards;
+			}
+			@keyframes insert{
+				0%{
+					color: white;
+					background: black;
+					width: 100px;
+					height: 100px;
+					text-align: center;
+					padding: 20px;
+					font-family: arial;
+					margin: 0px 0px 0px 500px;
+				}
+				10%{
+					background: white;
+					width: 100px;
+					height: 90px;
+					text-align: center;
+					padding: 20px;
+					color: black;
+					border-radius: 0px 5px 0px 0px;
+					margin: 0px 0px 0px 500px;
+				}
+			20%{
+				background: gold;
+				color: blue;
+				width: 100px;
+				height: 100px;
+				text-align: center;
+				padding: 20px;
+				border-radius: 0px 10px 0px 0px;
+				margin: 100px 0px 0px 500px;
+			}
+			30%{background: yellow;
+			color: blue;
+			width: 100px;
+			height: 100px;
+			text-align: center;
+			padding: 20px;
+			border-radius: 0px 20px 0px 0px;
+			margin: 200px 0px 0px 500px;
+			}
+			50%{background: rgb(47,47,134);
+			width: 100px;
+			height: 100px;
+			text-align: center;
+			padding: 20px;
+			color: blue;
+			font-family: "century gothic";
+			border-radius: 0px 90px 10px 0px;
+			margin: 200px 0px 0px 400px;
+			}
+			70%{background: black;
+			width: 100px;
+			height: 100px;
+			text-align: center;
+			padding: 20px;
+			color: blue;
+			font-family: algerian;
+			border-radius: 0px 90px 90px 0px;
+			margin: 200px 0px 0px 300px;
+			}
+			90%{background: pink;
+			width: 100px;
+			height: 100px;
+			text-align: center;
+			padding: 20px;
+			color: red;
+			font-family: calibri;
+			border-radius: 0px 90px 90px 10px;
+			margin: 200px 0px 0px 10px;
+			}
+			100%{background: brown;
+			width: 100px;
+			height: 100px;
+			text-align: center;
+			padding: 20px;
+			color: gold;
+			font-family: cambria;
+			border-radius: 90px 90px 90px 90px;
+			margin: 0px 0px 0px 0px;
+			}
+			}
+			div.insert{animation: insert 10s ease-in 1s infinite reverse;
+			width: 100px;
+			height: 100px;
+			text-align: center;
+			padding: 20px;
+			}
+            @keyframes image{
+            25%{background-image: url(IMAGE/poetry.jfif);
+            height: 500px;
+            width: 100%;
+            }
+            50%{background-image: url(IMAGE/google.png);
+            height: 500px;
+            width: 100%;
+            }
+            75%{background-image: url(IMAGE/mouse.png);
+            height: 500px;
+            width: 100%;
+            100%{background-image: url(IMAGE/whatsapp.jfif);
+            height: 500px;
+            width: 100%;
+            }
+            }
+            div.image{animation: image 10s ease-in-out 1s infinite forwards;
+             background-image: url(IMAGE/poetry.jfif);
+            height: 500px;
+            width: 100%;
+            }
+		</style>
+	</head>
+	<body>
+		<div class="insert">
+			<p>INSERT</p>
+		</div>
+		<div class="image">
+		</div>
+	</body>
+</html>

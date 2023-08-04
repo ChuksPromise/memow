@@ -1,0 +1,77 @@
+body{margin: 0px auto;
+}
+.log{height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+div.container-fluid{background: rgb(103,203,103);
+    height: 60px;
+    position: sticky;
+    top: 0px;
+}
+.parag{width: fit-content;
+    transform: translate(100px,-50px);
+}
+.parag>div{display: inline-block;
+    padding: 5px;
+}
+.parag>div:hover{color: red;
+}
+div.olu:hover .kola{display: block;
+    color: black;
+    z-index: 1;
+}
+.kola{display: none; 
+    position: absolute;
+    top: 58px;
+    left: 20px;
+    z-index: 1000;
+    border-radius: 2px;
+    width: 125px;
+    padding: 5px;
+    background: red;
+}
+.kola ul{width: fit-content;
+    padding: 2px;
+    list-style-type: none;
+}
+.kola li:hover{background: red;
+    text-align: center;
+    padding: 0px 5px 0px 5px;
+}
+div.saw{margin-left: 200px;
+}
+input.see{border-radius: 20px;
+    width: 550px;
+    height: 30px;
+    padding-left: 30px;
+    border: 0px solid rgb(103,203,103);
+}
+input.see:focus{border: 0px solid rgb(103,203,103);
+    outline:  0px solid rgb(103,203,103);
+}
+div.sign{margin-left: 50px;
+}
+div.cat{margin-left: 20px;
+    
+}
+div.ry{position: relative;
+    top: -47px;
+    background: whitesmoke;
+    height: 100px;
+    z-index: -1;
+}
+div.ry>p{width: fit-content;
+    transform: translate(100px,35px);
+    font-size: 30px;
+}
+div.ry p.add{transform: translate(1105px,-35px);
+    font-size: 16px;
+}
+div.ry p.call{transform: translate(1230px,-70px);
+    font-size: 16px;
+}
+div.picture{height: 500px;
+    background: gold;
+    margin-top: -45px;
+}

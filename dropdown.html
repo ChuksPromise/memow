@@ -1,0 +1,128 @@
+<html>
+	<head>
+		<title>dropdown</title>
+		<style>
+			div.olu{
+			width: 100px;
+			position: relative;
+			display: inline-block;
+			text-align: center;
+			}
+			span{font-family: algerian,serif;
+			color: rgb(71,239,71);
+			}
+			div.kola{position: absolute;
+			top: 20px;
+			width: 100px;
+			display: none;
+			}
+			div.kola>a{display: block;
+			text-decoration: none; 
+			color: red;
+			}
+			a:hover{background: gold;
+			color: blue;
+			text-align: center;
+			}
+			.olu:hover div.kola{display: block;
+			}
+			div.bolu{background: red;
+			width: 100px;
+			position: relative;
+			display: inline-block;
+			text-align: center;
+			}
+			span{font-family: algerian,serif;
+			color: rgb(71,239,71);
+			}
+			div.kolapo{position: absolute;
+			top: 20px;
+			width: 100px;
+			background: green;
+			display: none;
+			}
+			div.kolapo>a{display: block;
+			text-decoration: none; 
+			color: red;
+			}
+			a:hover{background: gold;
+			color: blue;
+			text-align: center;
+			}
+			.bolu:hover div.kolapo{display: block;
+			}
+			div.haul{height: 200px;
+    width: 200px;
+}
+div.one{Background: red;
+   position: relative;
+    height: 200px;
+    width: 200px;
+}
+div.one>p{text-align: center;
+    background: yellow;
+     font-size: 30px;
+    transform: translatey(80px);
+}
+div.haul:hover div.two{display: block;
+}
+div.haul:hover div.one{display: none;
+}
+@keyframes gee{
+    from{background: red;
+    height: 200px;
+    width: 200px;
+    position: relative;
+}
+    to{background: green;
+    height: 200px;
+    width: 200px;
+    } 
+}
+div.two{display: none;
+    background: red;
+   position: relative;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    animation: gee 10s ease-in 1s 4 forwards;
+}
+div.two>p{text-align: center;
+    background: yellow;
+     font-size: 30px;
+    transform: translatey(50px);
+}
+		</style>
+	</head>
+	<body>
+	<div class="olu">
+		<span>About Us</span>
+			<div class="kola">
+				<a href="#">management</a>
+				<a href="#">content</a>
+				<a href="#">control</a>
+				<a href="#">privacy and policy</a>
+				<a href="#">service</a>
+			</div>
+	</div>
+	<div class="bolu">
+		<span>Help Us</span>
+			<div class="kolapo">
+				<a href="#">management</a>
+				<a href="#">content</a>
+				<a href="#">control</a>
+				<a href="#">privacy and policy</a>
+				<a href="#">service</a>
+			</div>
+	</div>
+	<div class="haul">
+		<div class="one">
+			<p>valuemax</p>
+		</div>
+		<div class="two">
+			<p>programming class</p>
+			<p>Batch B</p>
+		</div>
+	</div>
+	</body>
+</html>

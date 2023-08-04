@@ -1,0 +1,149 @@
+<html>
+	<head>
+		<title>Lists</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" 
+		integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" 
+		crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+		crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" 
+		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" 
+		crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" 
+		integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" 
+		crossorigin="anonymous"></script>
+		<style>
+			body{background-color:rgb(255 122 222);
+			}
+			a{text-decoration:none;
+			}
+            ul.to{width: fit-content;
+            }
+            ul.to>li{display: inline;
+            padding: 5px;
+            border-right: 2px solid blue;
+            }
+			dl{color:blue;
+			}
+			ol{color:#885907;
+			}
+			li{color:blue;
+			}
+			h3{color:white;
+			text-shadow:10px 0px 10px green;
+			}
+		</style>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-md bg-success navbar-dark container-fluid">
+			<a href="index.html" class="navbar-brand">
+				<img src="IMAGE/skull.jpg" height="50px" width="50px" alt="logo"/>
+				<h1>Types of List</h1>
+			</a>
+			<button type="button" class="navbar-toggler" data-target="#movement" data-toggle="collapse">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div id="movement" class="collapse navbar-collapse justify-content-center">
+				<ul class="navbar-nav">
+					<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="About us.html" class="nav-link">About Us</a></li>
+					<li class="nav-item"><a href="Contact us.html" class="nav-link">Contact Us</a></li>
+					<li class="nav-item"><a href="Product.html" class="nav-link">Product</a></li>
+					<li class="nav-item"><a href="Service.html" class="nav-link">Service</a></li>
+					<li class="nav-item"><a href="google new  tab.html" class="nav-link">Google</a></li>
+					<li class="nav-item"><a href="FCMB HOMEPAGE.html" class="nav-link">FCMB</a></li>
+				</ul>
+			</div>
+		</nav><br>
+		<img src="IMAGE/ball.jpg" height="500px" width="100%" alt="illustration"/><br><br>
+		<div class="accordion" id="seun" style="background: orange;">
+			<div class="card">
+				<div class="header" data-toggle="collapse" data-target="#sunday" style="background: red;">
+					<h3>Ordered List</h3>
+				</div>
+		<!--ordered list-->
+				<div id="sunday" class="collapse" data-parent="#seun" style="background: orange;">
+					<ol>
+						<li>chemistry</li>
+						<li>physics</li>
+						<li>biology</li>
+						<li>mathematics</li>
+					</ol>
+				</div>
+			</div>
+			<div class="card">
+				<div class="header" data-toggle="collapse" data-target="#monday" style="background: blue;">
+					<h3>Unordered List</h3>
+				</div>
+	<!--unordered list-->
+				<div id="monday" class="collapse" data-parent="#seun" style="background: orange;">
+					<ul>
+						<li>cow</li>
+						<li>horse</li>
+						<li>sheep</li>
+						<li>goat</li>
+					</ul>
+				</div>
+			</div>
+			<div class="card">
+				<div class="header" data-toggle="collapse" data-target="#tuesday" style="background: brown;">
+					<h3>Descriptive List</h3>
+				</div>
+			<!--descriptive list-->
+				<div id="tuesday" class="collapse" data-parent="#seun" style="background: orange;">
+					<dl>
+						<dt>Subject</dt>
+							<dd>chemistry</dd>
+							<dd>physics</dd>
+							<dd>biology</dd>
+							<dd>mathematics</dd>
+						<dt>Animals</dt>
+							<dd>cow</dd>
+							<dd>horse</dd>
+							<dd>sheep</dd>
+							<dd>goat</dd>
+						<dt>state</dt>
+							<dd>delta state</dd>
+							<dd>ogun state</dd>
+							<dd>osun state</dd>
+							<dd>oyo state</dd>
+					</dl>
+				</div>
+			</div>
+			<div class="card">
+				<div <div class="header" data-toggle="collapse" data-target="#wednesday" style="background: red;">
+					<h3>Nested List</h3>
+				</div>
+			<!--nested list-->
+				<div id="wednesday" class="collapse" data-parent="#seun" style="background: orange;">
+					<ol>
+						<li>Subject</li>
+							<ul>
+								<li>chemistry</li>
+								<li>physics</li>
+								<li>biology</li>
+								<li>mathematics</li>
+							</ul>
+						<li>animals</li>
+							<ul>
+								<li>cow</li>
+								<li>horse</li>
+								<li>sheep</li>
+								<li>goat</li>
+							</ul>
+						<li>state</li>
+							<ul>
+								<li>delta state</li>
+								<li>ogun state</li>
+								<li>ogun state</li>
+								<li>oyo state</li>
+							</ul>
+					</ol>
+				</div>
+			</div>	
+		</div>
+	</body>
+</html>

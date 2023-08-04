@@ -1,0 +1,59 @@
+body{background-image: url(IMAGE/poetry.jfif);
+    background-attachment: fixed;
+}
+h1{text-align: center;
+    text-shadow: 0px 0px 10px red;
+    color: blue;
+    font-size: 3vw;
+    font-family: forte;
+}
+ul{margin-left: 20px;
+}
+li{display: inline;
+    border-right:2.5px solid red;
+    padding: 10px;
+    border-radius: 60px;
+    box-shadow: 0px 0px 10px yellow;
+    font-size: 1.2vw
+}
+a{text-decoration: none;
+    color: blue;
+    text-shadow: 0px 0px 10px rgb(118,127,253);
+}
+a:hover{border: 3px solid red;
+    border-radius:60px;
+    background: yellowgreen;
+    font-family: castellar;
+    color: whitesmoke;
+    text-shadow: 0px 0px 10px rgb(118,127,253);
+    padding: 10px;
+}
+p{margin-left: 20px;
+    font-size: 1.2vw;
+    color: yellow;
+}
+table{margin-left: 0px;
+    border: 5px solid gold;
+    width: 600px;
+    height: 500px;
+    border-collapse: collapse;
+    color: pink;
+    background: black;
+}
+tr{text-align: center;
+    font-size:1.2vw;
+    text-shadow: 0px 0px 10px blue;
+    font-size: 1.2vw;
+}
+tr:hover{background:white;
+    color: blue;
+    text-shadow: 0px 0px 20px blue;
+}
+tr:nth-child(even){background: white;
+    color:blue;
+}
+td{ border: 5px solid gold;
+    padding:5px;
+}
+
+
